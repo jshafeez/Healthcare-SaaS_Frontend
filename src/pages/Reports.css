@@ -1,0 +1,103 @@
+.reports-page {
+  padding: 20px;
+}
+
+.reports-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.reports-subtitle {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.reports-controls {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.reports-search {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.reports-filter {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.reports-table-wrapper {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  overflow-x: auto;
+}
+
+.reports-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.reports-table th,
+.reports-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.reports-table th {
+  background: #f9fafb;
+  font-weight: 600;
+}
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.status-badge.completed {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-badge.pending {
+  background: #fef9c3;
+  color: #854d0e;
+}
+
+.status-badge.cancelled {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.actions button {
+  margin-right: 6px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.btn-view {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.btn-download {
+  background: #10b981;
+  color: #fff;
+}
+
+.btn-delete {
+  background: #ef4444;
+  color: #fff;
+}

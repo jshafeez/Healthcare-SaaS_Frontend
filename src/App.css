@@ -1,0 +1,27 @@
+/* App.css */
+
+/* Main layout wrapper */
+.app-layout {
+  display: flex;
+}
+
+/* Sidebar open on desktop should push content */
+.app-layout.sidebar-open .main-layout {
+  margin-left: 250px;   /* adjust to your sidebar width */
+  transition: margin-left 0.3s ease;
+}
+
+/* Sidebar closed (mobile view) */
+.main-layout {
+  flex: 1;
+  margin-left: 0;
+  transition: margin-left 0.3s ease;
+}
+
+/* Page content */
+.page-content {
+  padding: 20px;
+  background: #fff;
+  min-height: calc(100vh - 60px); /* leave space for topbar */
+  box-sizing: border-box;
+}

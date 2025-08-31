@@ -1,0 +1,149 @@
+/* src/pages/Customers.css */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f7f9fc;
+  margin: 0;
+  padding: 0;
+}
+
+.p-6 {
+  padding: 24px;
+}
+
+.text-xl {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+/* Grid layout */
+.grid {
+  display: grid;
+  gap: 24px;
+}
+
+.grid-cols-1 {
+  grid-template-columns: 1fr;
+}
+@media (min-width: 640px) {
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Customer Card */
+.bg-white {
+  background: #fff;
+}
+
+.rounded-xl {
+  border-radius: 16px;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.border {
+  border: 1px solid #e5e7eb;
+}
+
+.p-4 {
+  padding: 16px;
+}
+
+.hover\:shadow-lg:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.transition {
+  transition: all 0.3s ease;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: #222;
+}
+
+.text-sm {
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+  color: #555;
+}
+
+.text-gray-600 {
+  color: #666;
+}
+
+.text-gray-500 {
+  color: #777;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+/* Status badges */
+.inline-block {
+  display: inline-block;
+}
+
+.px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.py-1 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.bg-green-100 {
+  background: #d1fae5;
+}
+.text-green-700 {
+  color: #047857;
+}
+
+.bg-yellow-100 {
+  background: #fef3c7;
+}
+.text-yellow-700 {
+  color: #92400e;
+}
+
+.bg-red-100 {
+  background: #fee2e2;
+}
+.text-red-700 {
+  color: #b91c1c;
+}

@@ -1,0 +1,121 @@
+/* src/pages/Auth.css */
+.auth-container {
+  display: flex;
+  height: 100vh;
+  font-family: "Arial", sans-serif;
+}
+
+/* Left branding section */
+.auth-left {
+  flex: 1;
+  background-color: #2d55b4;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.auth-left h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.auth-left h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Right form section */
+.auth-right {
+  flex: 1;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 0 10px 10px 0;
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.auth-right h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.auth-right form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 350px;
+}
+
+.auth-right input {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.auth-right input:focus {
+  border-color: #2d55b4;
+}
+
+.auth-right button {
+  background: #2d55b4;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-right button:hover {
+  background: #1e3f91;
+}
+
+/* Social buttons */
+.social-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.social-buttons button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #2d55b4;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+}
+
+.social-buttons button.google {
+  border-color: #db4437;
+  color: #db4437;
+}
+
+.social-buttons button.facebook {
+  border-color: #4267b2;
+  color: #4267b2;
+}
+
+.divider {
+  margin: 15px 0;
+  font-size: 14px;
+  color: #666;
+  font-weight: bold;
+}
+
+.auth-right p {
+  margin-top: 15px;
+  font-size: 14px;
+}
